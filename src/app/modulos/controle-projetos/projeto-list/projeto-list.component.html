@@ -1,0 +1,92 @@
+<div class="div-principal">
+  <div class="row titulo">
+    <div class="col-md-12 d-flex justify-content-end">
+      <h3></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="cold-md-6 card card-principal">
+      <img src="https://img.icons8.com/clouds/100/000000/browse-folder.png">
+      <div class="card-body text-center">
+        <!-- Botão para acionar modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#modalExemplo"
+        >
+          Crie agora mesmo um projeto, e tenha controle sob seus gastos!
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="modalExemplo"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">
+                  Controle de Projetos
+                </h4>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Fechar"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form [formGroup]="projetoForm">
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1"
+                      >Dê um nome ao seu projeto:</label
+                    >
+                    <input
+                      formControlName="nome"
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Reforma da Casa"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1"
+                      >Agora informe o quanto você deseja gastar nesse
+                      projeto:</label
+                    >
+                    <input
+                      formControlName="valor"
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="R$1.200"
+                    />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Fechar
+                </button>
+                <button (click)="salvarListaProjetos()" type="button" class="btn btn-primary">
+                  Salvar Projeto
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

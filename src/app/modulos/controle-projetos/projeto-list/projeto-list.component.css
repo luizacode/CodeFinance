@@ -1,0 +1,26 @@
+.div-principal {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+.titulo {
+    min-height: 10vh;
+    font-family: 'Sulphur Point', sans-serif;
+    background: #fff;
+    margin-bottom: 2em;
+}
+.titulo h3 {
+    padding: 0.5em;
+    color: #2a4055;
+}
+.card-principal {
+    min-width: 75%;
+    margin: 0 auto;
+    border-right: 1px solid;
+    border-color: #f9f9f9;
+    font-family: 'Sulphur Point', sans-serif;
+}
+.card-principal img {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}

@@ -1,0 +1,35 @@
+.div-principal{
+    background-color: #2a4055;
+    min-height: 100vh;
+    width: 18%;
+    float: left;
+}
+figcaption {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+}
+.nav-bar {
+    margin-top: 5em;
+    padding-bottom: 3em;
+}
+.nav-bar a {
+    color: #fff;
+    font-family: 'Sulphur Point', sans-serif;
+}
+.nav-bar a:hover{
+    color: #fff;
+    background-color: #334a61;
+}
+.nav-active {
+    background-color: #304355;
+    border-right: 3px solid;
+    border-color: #00CDCD;
+}   
+.nav-bar a img {
+    padding-right: 1em;
+}
+.nav-bar li {
+    margin-bottom: 0.7em;
+}

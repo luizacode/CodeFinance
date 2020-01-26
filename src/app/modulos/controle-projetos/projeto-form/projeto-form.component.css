@@ -1,0 +1,14 @@
+.div-principal {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+.titulo {
+    min-height: 10vh;
+    font-family: 'Sulphur Point', sans-serif;
+    background:linear-gradient(90deg, #614385 0%,#516395 100% );
+    margin-bottom: 2em;
+}
+.titulo h3 {
+    padding: 0.5em;
+    color: #fff;
+}
